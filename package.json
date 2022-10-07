@@ -1,7 +1,7 @@
 {
   "name": "maratona",
   "version": "1.0.0",
-  "description": "Freelance Calculator",
+  "description": "JobsCalc - Calculadora Freelance",
   "main": "src/server.js",
   "scripts": {
     "start": "node src/server.js",
