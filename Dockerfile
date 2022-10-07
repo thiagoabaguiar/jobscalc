@@ -11,6 +11,8 @@ COPY package*.json ./
 
 ## Executa npm install para adicionar as dependências e criar a pasta node_modules
 RUN npm install
+RUN npm install sqlite3
+RUN npm install sqlite
 
 ## Copia tudo que está no diretório onde o arquivo Dockerfile está 
 ## para dentro da pasta /usr/app do container
