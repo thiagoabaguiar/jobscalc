@@ -21,7 +21,7 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'jobscalcdev'
-    repository: 'jobscalcdev-image'
+    repository: 'jobscalc-image'
     command: 'buildAndPush'
     Dockerfile: '**/Dockerfile'
     tags: |
