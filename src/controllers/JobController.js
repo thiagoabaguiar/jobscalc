@@ -2,16 +2,17 @@ const { getOnce } = require("../model/Job");
 const Job = require("../model/Job")
 const Profile = require("../model/Profile")
 const JobUtils = require("../utils/JobUtils")
+const moment = require("moment")
 
 module.exports = {
 
-    index(req, res) { // OK
+    index(req, res) {
 
         return res.render("job")
 
     },
 
-    async show(req, res) { // OK
+    async show(req, res) {
 
         const jobIdToGet = req.params.id
         const allJobs = await Job.getAll()
@@ -25,7 +26,7 @@ module.exports = {
         return res.render("job-edit", { job: jobGot })
     },
 
-    async add(req, res) { // OK
+    async add(req, res) {
 
         const newJobFromFront = req.body
         const profile = await Profile.get()
@@ -43,7 +44,7 @@ module.exports = {
         return res.redirect("/")
     },
 
-    async update(req, res) { // OK
+    async update(req, res) {
 
         const profile = await Profile.get()
         
@@ -60,7 +61,7 @@ module.exports = {
         return res.redirect("/")
     },
 
-    delete(req, res) { // OK
+    delete(req, res) {
 
         const jobIdToDelete = req.params.id
 

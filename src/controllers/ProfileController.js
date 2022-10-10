@@ -3,7 +3,7 @@ const ProfileUtils = require("../utils/ProfileUtils")
 
 module.exports = {
 
-    async index(req, res) { // OK
+    async index(req, res) {
 
       let profile = await Profile.get()
       if (profile === undefined) {
@@ -28,7 +28,7 @@ module.exports = {
       }
     },
 
-    async add(req, res) { // OK
+    async add(req, res) {
 
         const profileDB = await Profile.get()
         if (profileDB === undefined) {
