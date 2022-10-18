@@ -47,4 +47,4 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.
 
 ---
 
-Desenvolvido durante a Maratona Rocketseat e reaproveitado durante o Raízen Tech Experience por Thiago Aguiar
+Desenvolvido durante a Maratona Rocketseat e reaproveitado durante o Raízen Tech Experience pelo grupo Guild Capsule
