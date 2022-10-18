@@ -28,10 +28,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- Git
 - NodeJS
 - EJS
 - Express
 - SQLite
+- Docker
+- Azure DevOps
+- Azure Cloud
 
 ## 💻 Projeto
 
